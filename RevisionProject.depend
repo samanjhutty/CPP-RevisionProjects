@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1669801827 source:e:\workspace\cpp\revisionproject\main.cpp
+	<iostream>
+	"MisssingNoInArray.h"
+	"PyramidStar.h"
+
+1669801998 e:\workspace\cpp\revisionproject\include\misssingnoinarray.h
+
+1669801371 source:e:\workspace\cpp\revisionproject\src\misssingnoinarray.cpp
+	"MisssingNoInArray.h"
+	<iostream>
+	<cmath>
+
+1669785556 source:e:\workspace\cpp\revisionproject\src\pyramidstar.cpp
+	<iostream>
+	"PyramidStar.h"
+
+1669739057 e:\workspace\cpp\revisionproject\include\pyramidstar.h
+
