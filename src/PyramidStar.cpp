@@ -3,25 +3,29 @@
 
 using namespace std;
 
-PyramidStar::PyramidStar(){
-    cout<<"Program to print star triangle\n"<<endl;
-    int i,j,k;
-    for( i=5;i>=1;i--){
+PyramidStar::PyramidStar()
+{
+    cout<<"Enter the length of triangle: ";
+    cin>>length;
+    cout<<endl;
 
-        for( j=i;j>=1;j--){
-
+    starTri(length);
+}
+void PyramidStar::starTri(int l){
+        for( i=l; i>=1; i--)
+    {
+        for( j=i; j>=1; j--)
+        {
             cout<<" ";
         }
-        for( k=5;k>=i;k--){
-
-             cout<<"*";
+        for( k=l; k>=i; k--)
+        {
+            cout<<"*";
         }
-        for( k=5;k>i;k--){
-
-             cout<<"*";
+        for( k=l; k>i; k--)
+        {
+            cout<<"*";
         }
-
-
         cout<<endl;
     }
 

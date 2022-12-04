@@ -4,14 +4,17 @@
 
 class MisssingNoInArray
 {
-    public:
-        MisssingNoInArray();
-        int maxMinArray();
-        int missingNo();
+public:
+    MisssingNoInArray();
+    void maxMinArray();
+    void missingNo();
+    void sortArray();
 
-    protected:
+protected:
 
-    private:
+private:
+        int elements[50],i,n,arrMax=0,arrMin=0,sortorder;
+        int input;
 };
 
 #endif // MISSSINGNOINARRAY_H

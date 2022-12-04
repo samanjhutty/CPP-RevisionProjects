@@ -34,11 +34,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/FactorialNumber.h" />
+		<Unit filename="include/FunctionOverloading.h" />
 		<Unit filename="include/MisssingNoInArray.h" />
+		<Unit filename="include/PalindromeString.h" />
 		<Unit filename="include/PyramidStar.h" />
+		<Unit filename="include/RandomNumber.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/FactorialNumber.cpp" />
+		<Unit filename="src/FunctionOverloading.cpp" />
 		<Unit filename="src/MisssingNoInArray.cpp" />
+		<Unit filename="src/PalindromeString.cpp" />
 		<Unit filename="src/PyramidStar.cpp" />
+		<Unit filename="src/RandomNumber.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
