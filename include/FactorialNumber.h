@@ -6,11 +6,10 @@ class FactorialNumber
 {
     public:
         FactorialNumber();
-        int getFactorial(int factoNumber=2);
-
-    protected:
 
     private:
+
+    int getFactorial(int factoNumber=5);
     int uinput;
     int finput, factorial;
 

@@ -7,8 +7,6 @@ class PalindromeString
     public:
         PalindromeString();
 
-    protected:
-
     private:
         int minchar=0,strlen;
 

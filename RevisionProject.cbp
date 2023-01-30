@@ -34,17 +34,29 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Constants.h" />
+		<Unit filename="include/Documentation.h" />
 		<Unit filename="include/FactorialNumber.h" />
 		<Unit filename="include/FunctionOverloading.h" />
+		<Unit filename="include/Keywords.h" />
+		<Unit filename="include/MemberInitializer.h" />
 		<Unit filename="include/MisssingNoInArray.h" />
 		<Unit filename="include/PalindromeString.h" />
+		<Unit filename="include/PassingValues.h" />
+		<Unit filename="include/Pointers.h" />
 		<Unit filename="include/PyramidStar.h" />
 		<Unit filename="include/RandomNumber.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Constants.cpp" />
+		<Unit filename="src/Documentation.cpp" />
 		<Unit filename="src/FactorialNumber.cpp" />
 		<Unit filename="src/FunctionOverloading.cpp" />
+		<Unit filename="src/Keywords.cpp" />
+		<Unit filename="src/MemberInitializer.cpp" />
 		<Unit filename="src/MisssingNoInArray.cpp" />
 		<Unit filename="src/PalindromeString.cpp" />
+		<Unit filename="src/PassingValues.cpp" />
+		<Unit filename="src/Pointers.cpp" />
 		<Unit filename="src/PyramidStar.cpp" />
 		<Unit filename="src/RandomNumber.cpp" />
 		<Extensions>

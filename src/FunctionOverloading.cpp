@@ -10,10 +10,6 @@ FunctionOverloading::FunctionOverloading()
 
     cout<<" the square root of "<<input<<" is: "<<squareroot(input)<<endl;
 }
-int FunctionOverloading::squareroot(int iinput){
-    return sqrt(iinput);
-}
+int FunctionOverloading::squareroot(int iinput) {return sqrt(iinput);}
 
-float FunctionOverloading::squareroot(float dinput){
-    return sqrt(dinput);
-}
+float FunctionOverloading::squareroot(float dinput) {return (dinput);}

@@ -20,7 +20,7 @@ PalindromeString::PalindromeString()
 
     if(strPalin==revPalin)
     {
-        cout<<"The given string"<<strPalin<<" is palindrome"<<endl;
+        cout<<"The given string "<<strPalin<<" is palindrome"<<endl;
     }
     else
     {

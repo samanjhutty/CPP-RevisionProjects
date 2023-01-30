@@ -4,6 +4,12 @@
 #include "RandomNumber.h"
 #include "FactorialNumber.h"
 #include "FunctionOverloading.h"
+#include "Pointers.h"
+#include "PassingValues.h"
+#include "Constants.h"
+#include "MemberInitializer.h"
+#include "Keywords.h"
+#include "Documentation.h"
 
 #include <iostream>
 using namespace std;
@@ -29,11 +35,20 @@ int getList(){
 
 int programList()
 {
-    cout<<"\n 1. Pyramid of Stars (print star triangle)\n 2. Array Programs\n 3. Palindrome String";
-    cout<<"\n 4. Random Number Generator\n 5. Factorial Number using Recursion + default parameter example";
-    cout<<"\n 6. Function overloading"<<endl;
+    cout<<"\n 1.  Pyramid of Stars (Print STAR Triangle)"
+    <<"\n 2.  Array Programs"
+    <<"\n 3.  Palindrome String"
+    <<"\n 4.  Random Number Generator"
+    <<"\n 5.  Factorial Number using Recursion + Default parameter example"
+    <<"\n 6.  Function overloading"
+    <<"\n 7.  Memory Address (uses Arrow Member selection Operator to access Member functions)"
+    <<"\n 8.  Pass by Value/Reference"
+    <<"\n 9.  Constant  functions + Constructor/De-constructor"
+    <<"\n 10. Member Initializer Syntax (assigning values to constant variable)"
+    <<"\n 11. 'this' Keyword (Different ways of Referencing a variable)"
 
-    cout<<"\n press the corresponding no for the program or 0 to exit: ";
+    <<endl;
+    cout<<"\n press the corresponding no for the program or 0 to exit, 999 for Documentation: ";
 
     int input;
     cin>>input;
@@ -41,6 +56,10 @@ int programList()
 
     switch(input){
         case 0:return 0;
+        break;
+
+        case 999:Documentation();
+        getList();
         break;
 
         case 1:PyramidStar();
@@ -67,7 +86,43 @@ int programList()
         getList();
         break;
 
-        default:cout<<"Invalid Input"<<endl;
+        case 7:{
+        Pointers obj;
+        obj.memAddress();
+
+        Pointers *pointerPointer;
+        pointerPointer -> memAllocation();
+        }
+        getList();
+        break;
+
+        case 8: PassingValues();
+        getList();
+        break;
+
+        case 9:{
+            Constants objs;
+            objs.regFun();
+
+            const Constants constobj;
+            constobj.constFun();
+        }
+        getList();
+        break;
+
+        case 10: MemberInitializer(69);
+        getList();
+        break;
+
+        case 11:{
+        Keywords kws(5);
+        kws.thiskeyword();
+        }
+        getList();
+        break;
+
+        default: cout<<"Invalid Input"<<endl;
         getList();
     }
 }
+

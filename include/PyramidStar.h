@@ -5,12 +5,10 @@ class PyramidStar
 {
 public:
     PyramidStar();
-    void starTri(int l);
-
-protected:
 
 private:
-        int i,j,k, length;
+    void starTri(int l);
+    int i,j,k, length;
 };
 
 #endif // PYRAMIDSTAR_H

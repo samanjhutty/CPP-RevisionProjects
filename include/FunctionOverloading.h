@@ -6,13 +6,12 @@ class FunctionOverloading
 {
     public:
         FunctionOverloading();
-        int squareroot(int iinput);
-        float squareroot(float dinput);
-
-    protected:
 
     private:
         float input;
+        int squareroot(int iinput);
+        float squareroot(float dinput);
+
 };
 
 #endif // FUNCTIONOVERLOADING_H

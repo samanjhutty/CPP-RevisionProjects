@@ -6,10 +6,6 @@ class RandomNumber
 {
     public:
         RandomNumber();
-
-    protected:
-
-    private:
 };
 
 #endif // RANDOMNUMBER_H
