@@ -11,7 +11,7 @@ void Pointers::memAddress(){
     fish=10;
     fishPointer=&fish;
     cout<<"the Memory Address of Integer using Pointer using pointer and Changed values "
-    <<fish<<" is: "<<&fish<<endl;
+    <<fish<<" is: "<<fishPointer<<endl;
 }
 
 void Pointers::memAllocation(){

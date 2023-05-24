@@ -7,7 +7,7 @@ Documentation::Documentation(){
 }
 
 Documentation::menu(){
-    cout<<"\nPress 1 for List else 0 to EXIT: ";
+    cout<<"\nPress 1 for List else 0 to EXIT to MAIN MENU: ";
     cin>>doc;
     if(doc)
         dList();
@@ -17,12 +17,12 @@ Documentation::menu(){
 
 Documentation::dList(){
     cout<<"\n\t\tDocumentation on:"
-    <<"\n 1. 'friend' keyword"
+    <<"\n 1. 'friend' Keyword"
     <<"\n 2. Protected"
-    <<"\n 3. Inheritance"
+    //<<"\n 3. Inheritance"
 
 
-    <<"\n Select from Range else 0 to EXIT: ";
+    <<"\n Select Number from Range else 0 to EXIT to MAIN MENU: ";
     cin>>input;
     switch(input){
         case 0: return 0;
@@ -53,7 +53,8 @@ void Documentation::protectedKeyword(){
 }
 
 void Documentation::inheritance(){
-
+    cout<<"\n Inheritance: ";
+    cout<<"If you inherit a class its constructor and deconstructor are automatically get invoked in the child class."<<endl;
 }
 
 Documentation::~Documentation(){

@@ -10,6 +10,8 @@
 #include "MemberInitializer.h"
 #include "Keywords.h"
 #include "Documentation.h"
+#include "OperatorOverloading.h"
+#include "ExceptionHandling.h"
 
 #include <iostream>
 using namespace std;
@@ -18,12 +20,11 @@ int getList();
 int programList();
 
 int main(){
-
     getList();
 }
 
 int getList(){
-    cout<<"\nPress 1 to get list of programs else press 0: ";
+    cout<<"\nPress 1 to get list of programs else press 0 to EXIT: ";
     bool bo;
 
     cin>>bo;
@@ -46,9 +47,12 @@ int programList()
     <<"\n 9.  Constant  functions + Constructor/De-constructor"
     <<"\n 10. Member Initializer Syntax (assigning values to constant variable)"
     <<"\n 11. 'this' Keyword (Different ways of Referencing a variable)"
+    <<"\n 12. Operator Overloading"
+    <<"\n 13. Exception Handling"
+
 
     <<endl;
-    cout<<"\n press the corresponding no for the program or 0 to exit, 999 for Documentation: ";
+    cout<<"\n press the corresponding no for the program or 0 to EXIT, 999 for Documentation: ";
 
     int input;
     cin>>input;
@@ -100,6 +104,7 @@ int programList()
         getList();
         break;
 
+
         case 9:{
             Constants objs;
             objs.regFun();
@@ -118,6 +123,27 @@ int programList()
         Keywords kws(5);
         kws.thiskeyword();
         }
+        getList();
+        break;
+
+        case 12: {
+            cout<<"Adding integers with help of operator overloading"<<endl;
+            cout<<" Enter an integer: ";
+            int int1,int2;
+            cin>>int1;
+            cout<<" Enter another integer: ";
+            cin>>int2;
+
+            OperatorOverloading a(int1);
+            OperatorOverloading b(int2);
+            OperatorOverloading c;
+            c=a+b;
+            cout<<"Sum of Integers is: "<<c.input<<endl;
+        }
+        getList();
+        break;
+
+        case 13: ExceptionHandling();
         getList();
         break;
 

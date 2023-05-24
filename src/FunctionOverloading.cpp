@@ -12,4 +12,4 @@ FunctionOverloading::FunctionOverloading()
 }
 int FunctionOverloading::squareroot(int iinput) {return sqrt(iinput);}
 
-float FunctionOverloading::squareroot(float dinput) {return (dinput);}
+float FunctionOverloading::squareroot(float dinput) {return sqrt(dinput);}
