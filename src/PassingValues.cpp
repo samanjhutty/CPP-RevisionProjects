@@ -18,13 +18,15 @@ PassingValues::PassingValues()
 
     cout<<"Using Pass by Reference: "<<sandy<<endl;
 }
-void PassingValues::passByValue(int value){
+void PassingValues::passByValue(int value)
+{
     //int value is a copy of betty
     //this doesn't change betty value it just uses a copy of variable
     value =99;
 }
 
-void PassingValues::passByReference(int *refer){
+void PassingValues::passByReference(int *refer)
+{
     //int refer is memory address of sandy
     //means it will direct impact sandy and change its value permanently
     *refer=99;

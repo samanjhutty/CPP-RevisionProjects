@@ -4,18 +4,18 @@
 
 class Documentation
 {
-    public:
-        Documentation();
-        ~Documentation();
+public:
+    Documentation();
+    ~Documentation();
 
-    private:
-        int input;
-        bool doc;
-        int menu();
-        int dList();
-        void friendKeyword();
-        void inheritance();
-        void protectedKeyword();
+private:
+    int input;
+    bool doc;
+    int menu();
+    int dList();
+    void friendKeyword();
+    void inheritance();
+    void protectedKeyword();
 };
 
 #endif // DOCUMENTATION_H

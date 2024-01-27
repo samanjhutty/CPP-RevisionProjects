@@ -4,11 +4,11 @@
 
 class PalindromeString
 {
-    public:
-        PalindromeString();
+public:
+    PalindromeString();
 
-    private:
-        int minchar=0,strlen;
+private:
+    int minchar=0,strlen;
 
 };
 

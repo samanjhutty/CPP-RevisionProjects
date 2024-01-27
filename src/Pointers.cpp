@@ -2,19 +2,21 @@
 #include <iostream>
 using namespace std;
 
-void Pointers::memAddress(){
+void Pointers::memAddress()
+{
     int fish=5;
     cout<<"the Memory Address of Integer having value using memory address operator "
-    <<fish<<" is: "<<&fish<<endl;
+        <<fish<<" is: "<<&fish<<endl;
 
     int *fishPointer;
     fish=10;
     fishPointer=&fish;
     cout<<"the Memory Address of Integer using Pointer using pointer and Changed values "
-    <<fish<<" is: "<<fishPointer<<endl;
+        <<fish<<" is: "<<fishPointer<<endl;
 }
 
-void Pointers::memAllocation(){
+void Pointers::memAllocation()
+{
     cout<<"\n\nRepresentation of memory allocation of pointers"<<endl;
 
     int arr[5];

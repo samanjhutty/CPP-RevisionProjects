@@ -4,13 +4,13 @@
 
 class FunctionOverloading
 {
-    public:
-        FunctionOverloading();
+public:
+    FunctionOverloading();
 
-    private:
-        float input;
-        int squareroot(int iinput);
-        float squareroot(float dinput);
+private:
+    float input;
+    int squareroot(int iinput);
+    float squareroot(float dinput);
 
 };
 

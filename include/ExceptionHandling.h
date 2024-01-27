@@ -4,13 +4,13 @@
 
 class ExceptionHandling
 {
-    public:
-        ExceptionHandling();
+public:
+    ExceptionHandling();
 
-    protected:
+protected:
 
-    private:
-        int uAge, fAge, remAge;
+private:
+    int uAge, fAge, remAge;
 };
 
 #endif // EXCEPTIONHANDLING_H

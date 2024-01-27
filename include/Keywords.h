@@ -4,12 +4,12 @@
 
 class Keywords
 {
-    public:
-        Keywords(int);
-        void thiskeyword();
+public:
+    Keywords(int);
+    void thiskeyword();
 
-    private:
-        int a;
+private:
+    int a;
 };
 
 #endif // KEYWORDS_H

@@ -4,12 +4,12 @@
 
 class OperatorOverloading
 {
-    public:
-        OperatorOverloading();
-        OperatorOverloading(int);
-        OperatorOverloading operator+(OperatorOverloading);
+public:
+    OperatorOverloading();
+    OperatorOverloading(int);
+    OperatorOverloading operator+(OperatorOverloading);
 
-        int input;
+    int input;
 };
 
 #endif // OPERATOROVERLOADING_H

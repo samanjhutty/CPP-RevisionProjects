@@ -12,7 +12,8 @@ FactorialNumber::FactorialNumber()
     else
         cout<<"The factorial of "<<finput<<" is: "<<getFactorial(finput)<<endl;
 }
-int FactorialNumber::getFactorial(int factoNumber){
+int FactorialNumber::getFactorial(int factoNumber)
+{
     if(factoNumber==1)
         return 1;
     else

@@ -4,10 +4,10 @@
 
 class FactorialNumber
 {
-    public:
-        FactorialNumber();
+public:
+    FactorialNumber();
 
-    private:
+private:
 
     int getFactorial(int factoNumber=5);
     int uinput;

@@ -13,7 +13,7 @@ PalindromeString::PalindromeString()
     cin>>strPalin;
 
     strlen=strPalin.length();
-    for(int i=strlen-1;i>=0;i--)
+    for(int i=strlen-1; i>=0; i--)
     {
         revPalin+=strPalin[i];
     }

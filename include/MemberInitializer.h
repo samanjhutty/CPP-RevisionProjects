@@ -3,11 +3,11 @@
 
 class MemberInitializer
 {
-    public:
-        MemberInitializer(int);
+public:
+    MemberInitializer(int);
 
-    private:
-        const int constvar;
+private:
+    const int constvar;
 };
 
 #endif // MEMBERINITIALIZER_H

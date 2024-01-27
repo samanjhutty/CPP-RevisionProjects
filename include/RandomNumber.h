@@ -4,8 +4,8 @@
 
 class RandomNumber
 {
-    public:
-        RandomNumber();
+public:
+    RandomNumber();
 };
 
 #endif // RANDOMNUMBER_H

@@ -2,9 +2,9 @@
 #include <iostream>
 using namespace std;
 
-OperatorOverloading::OperatorOverloading(){}
+OperatorOverloading::OperatorOverloading() {}
 
-OperatorOverloading::OperatorOverloading(int q):input(q){}
+OperatorOverloading::OperatorOverloading(int q):input(q) {}
 
 OperatorOverloading OperatorOverloading::operator+(OperatorOverloading aso)
 {

@@ -11,8 +11,9 @@ PyramidStar::PyramidStar()
 
     starTri(length);
 }
-void PyramidStar::starTri(int l){
-        for( i=l; i>=1; i--)
+void PyramidStar::starTri(int l)
+{
+    for( i=l; i>=1; i--)
     {
         for( j=i; j>=1; j--)
         {

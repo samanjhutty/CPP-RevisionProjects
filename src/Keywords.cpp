@@ -2,9 +2,10 @@
 #include <iostream>
 using namespace std;
 
-Keywords::Keywords(int num):a(num){}
+Keywords::Keywords(int num):a(num) {}
 
-void Keywords::thiskeyword(){
+void Keywords::thiskeyword()
+{
 
     //ways of referencing a variable
 

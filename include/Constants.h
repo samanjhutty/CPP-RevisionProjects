@@ -4,12 +4,12 @@
 
 class Constants
 {
-    public:
-        Constants();
-        ~Constants();
+public:
+    Constants();
+    ~Constants();
 
-        void regFun();
-        void constFun() const;
+    void regFun();
+    void constFun() const;
 };
 
 #endif // CONSTANTS_H

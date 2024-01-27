@@ -4,9 +4,9 @@
 
 class Pointers
 {
-    public:
-        void memAddress();
-        void memAllocation();
+public:
+    void memAddress();
+    void memAllocation();
 
 };
 
